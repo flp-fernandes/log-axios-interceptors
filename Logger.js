@@ -23,6 +23,7 @@ class Logger {
         });
     }
 
+    /*
     debug(url, request, response, route) {
         const requestBody = JSON.parse(JSON.stringify(request))
         const responseBody = JSON.parse(JSON.stringify(response))
@@ -60,7 +61,7 @@ class Logger {
             }
         });
     }
+    */
 }
 
-module.exports = Logger;
-*/
+module.exports = new Logger();
